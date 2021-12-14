@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckwxqzgq71cxo14mo60snal4z',
+    style: 'mapbox://styles/daltonwb/ckx5j4u6i1c0x15p433alam68',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -24,7 +24,7 @@ var config = {
               bearing: -164.60
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
               {
@@ -41,7 +41,7 @@ var config = {
             id: 'AFG',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: '2. Afghanistan',
             image: '',
             description: 'Kabul. A major humanitarian catastrophe is looming in Afghanistan. International donors have cut off all but insufficient emergency aid after the Taliban’s takeover. Donor countries should now re-engage with Afghanistan and work with the state apparatus to preserve its basic functions.',
             location: {
@@ -64,7 +64,7 @@ var config = {
             id: 'CNUS',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'US-China Flashpoints',
             image: '',
             description: 'Subi Reef, South China Sea. Mounting tension between the US and China could see a show of force over Taiwan and the South China sea. For now, the potential for a direct military confrontation remains low as China is focused on the Winter Olympics and the 20th Party Congress, but the possibility of miscalculation or misinterpretation remains a concern. ',
             location: {
@@ -97,6 +97,98 @@ var config = {
               bearing: 0
             },
             mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: 'YEM',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'The civil war in Yemen may have faded from the  headlines, the conflict has nonetheless  become more bloody and more intractable. All eyes are now on the city of Marib and its reserve and oil and gas. Losing this bastion to the Huthis would deal a deadly blow to the internationally-recognized government. A showdown in Marib would likely destroy the city and exact a heavy toll on civilians.',
+            location: {
+              center: [45.318441, 15.469514],
+              zoom: 13.53,
+              pitch: 27.86,
+              bearing: 22.40
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: 'IRUS',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Lorem ipsum dolor amet.',
+            location: {
+              center: [56.142973, 29.489849],
+              zoom: 5.80,
+              pitch: 48.72,
+              bearing: 17.95
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: 'ISPS',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'In the past year, the new government in Israel has further solidified its grip over the occupied Palestinian territories towards what now looks more and more like a de facto annexation. This permanent statu quo is however untenable and violent outbursts will inevitably occur. ',
+            location: {
+              center: [35.700359, 33.169155],
+              zoom: 9,
+              pitch: 0,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: 'HT',
+            alignment: 'left',
+            hidden: false,
+            title: 'Haiti',
+            image: '',
+            description: 'Port-au-Prince. 2021 was one of the bleakest years for Haiti. The assassination of President Jovenel Moïse has left the country in disarray. Violent gangs now control most of the capital Port-au-Prince. In order to restore a functioning state, Haiti will need a consensus government and renewed support by its partners. ',
+            location: {
+              center: [-72.310913, 18.545446],
+              zoom: 13.14,
+              pitch: 72.50,
+              bearing: 119.20
+            },
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
@@ -107,17 +199,40 @@ var config = {
           ]
         },
         {
-            id: 'ETH',
+            id: 'MALI',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'Haiti',
             image: '',
-            description: 'Lorem ipsum dolor amet.',
+            description: 'Insurgencies in the Sahel are expanding and the security situation in Mali, Burkina and Niger continues to deteriorate. And France has made it clear it wants to end its military involvement.  This prospect however is pushing local governments to seek a dialogue with the jihadists that could lead to negotiated solutions.',
             location: {
-              center: [36.450255, 10.096885],
-              zoom: 5,
-              pitch: 12.36,
-              bearing: 0
+              center: [-72.310913, 18.545446],
+              zoom: 13.14,
+              pitch: 72.50,
+              bearing: 119.20
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: 'COVID',
+            alignment: 'left',
+            hidden: false,
+            title: 'Haiti',
+            image: '',
+            description: 'Finally, the pandemic’s long tail is not over. From Colombia to Tunisia, from Lebanon to Sudan; COVID-19 has exacerbated grievances and led to unrest. Middle-income countries have been hit particularly hard by the economic downturn and the recovery looks increasingly divided between countries with high vaccination rates and parts of the world where vaccines and treatments are scarce. ',
+            location: {
+              center: [-72.310913, 18.545446],
+              zoom: 13.14,
+              pitch: 72.50,
+              bearing: 119.20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
