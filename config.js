@@ -5,21 +5,67 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>10 Conflicts to Watch – 2021</h1>',
+    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Ten Conflicts to Watch</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support: </strong>Andrew Ciacci and Juan Sebastian Lozano<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
     chapters: [
+      {
+          id: 'INTRO',
+          alignment: 'left',
+          hidden: false,
+          title: 'Conflicts to watch in 2022',
+          image: '',
+          description: 'With Russia massing troops on Ukraine’s border, the Taliban seizing power in Afghanistan and Ethiopia’s civil war intensifying, what does the past year tell us about the state of international peace and security? How do rising tensions among major powers impact multilateral efforts to make peace? What change has new U.S. president Joe Biden brought? What about the impact of the pandemic, particularly as new variants emerge, and the worsening climate crisis? The event will look ahead at what people should expect in the year ahead.',
+          location: {
+            center: [12.234568, 23.422547],
+            zoom: 2,
+            pitch: 0,
+            bearing: 0
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+            {
+              layer: '2021-conflicts',
+              duration: 1000,
+              opacity: 1
+            },
+            {
+              layer: '2021-conflicts-labels',
+              duration: 1000,
+              opacity: 1
+            },
+            {
+              layer: 'satellite',
+              duration: 1000,
+              opacity: 0
+            }
+          ],
+          onChapterExit: [
+            {
+              layer: '2021-conflicts',
+              duration: 1000,
+              opacity: 0
+            },
+            {
+              layer: '2021-conflicts-labels',
+              duration: 1000,
+              opacity: 0
+            }
+        ]
+      },
         {
             id: 'UKR',
             alignment: 'left',
             hidden: false,
-            title: '1. Ukraine',
+            title: 'Ukraine',
             image: '',
-            description: 'Vodiane, Ukraine. Here you can see dug in trenches from Ukrainian military positions.',
+            description: '<strong>Vodiane, Ukraine</strong>. Here you can see dug in trenches from Ukrainian military positions. The threat of a Russian invasion of Ukraine  tops our list of conflicts to watch this year. Dismissing the massing of Russian troops on Ukraine’s border as a bluff would be a mistake.  An invasion could have terrifying repercussions, potentially sucking in NATO members.',
             location: {
-              center: [37.805448, 47.144850],
-              zoom: 15.50,
+              center: [37.811, 48.125],
+              zoom: 16,
               pitch: 50.85,
               bearing: -164.60
             },
@@ -29,7 +75,7 @@ var config = {
             onChapterEnter: [
               {
                 layer: 'satellite',
-                duration: 1000,
+                duration: 4000,
                 opacity: 1
               }
             ],
