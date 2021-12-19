@@ -80,16 +80,61 @@ var config = {
               }
             ],
             onChapterExit: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 0
+              }
+          ]
+        },
+        {
+            id: 'ETH',
+            alignment: 'left',
+            hidden: false,
+            title: 'Ethiopia',
+            image: '',
+            description: 'Neither Abiy’s government nor the Tigrayan rebels can realistically win, yet neither is in the mood for talks. Continued war would spell disaster for the country and could destabilise an already fragile Horn of Africa ',
+            location: {
+              center: [36.450255, 10.096885],
+              zoom: 5,
+              pitch: 35,
+              bearing: 25
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'ethiopia',
+                duration: 2000,
+                opacity: 1
+              },
+              {
+                layer: 'tigray',
+                duration: 2000,
+                opacity: 1
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'ethiopia',
+                duration: 2000,
+                opacity: 0
+              },
+              {
+                layer: 'tigray',
+                duration: 2000,
+                opacity: 0
+              }
           ]
         },
         {
             id: 'AFG',
             alignment: 'left',
             hidden: false,
-            title: '2. Afghanistan',
+            title: 'Afghanistan',
             image: '',
-            description: 'Kabul. A major humanitarian catastrophe is looming in Afghanistan. International donors have cut off all but insufficient emergency aid after the Taliban’s takeover. Donor countries should now re-engage with Afghanistan and work with the state apparatus to preserve its basic functions.',
+            description: 'Kabul. A major humanitarian catastrophe is looming in Afghanistan. International donors have cut off all but insufficient emergency aid after the Taliban’s takeover. Donor countries should now re-engage with Afghanistan and work with the state apparatus to preserve its basic functions.  triggered mostly by Western governments cutting off aid after the Taliban’s takeover, could potentially be more devastating than the past decades of war.',
             location: {
               center: [69.191105, 34.534492],
               zoom: 11.93,
@@ -100,19 +145,58 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 0
+              }
           ]
         },
         {
-            id: 'CNUS',
+            id: 'CNUS1',
             alignment: 'left',
             hidden: false,
             title: 'US-China Flashpoints',
             image: '',
-            description: 'Subi Reef, South China Sea. Mounting tension between the US and China could see a show of force over Taiwan and the South China sea. For now, the potential for a direct military confrontation remains low as China is focused on the Winter Olympics and the 20th Party Congress, but the possibility of miscalculation or misinterpretation remains a concern. ',
+            description: 'A direct confrontation between the U.S. and China over Taiwan is likely to happen in the near future, heightened tensions between Washington and Beijing provide plenty of opportunities for miscalculation and unintended escalation, particularly around the Taiwan strait and the South China Sea. Mounting tension between the US and China could see a show of force over Taiwan and the South China sea. For now, the potential for a direct military confrontation remains low as China is focused on the Winter Olympics and the 20th Party Congress, but the possibility of miscalculation or misinterpretation remains a concern.',
+            location: {
+              center: [120.199462, 18.345498],
+              zoom: 4.25,
+              pitch: 27,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'first-island-chain',
+                duration: 2000,
+                opacity: 1
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'first-island-chain',
+                duration: 2000,
+                opacity: 0
+              }
+          ]
+        },
+        {
+            id: 'CNUS2',
+            alignment: 'left',
+            hidden: false,
+            title: 'US-China Flashpoints',
+            image: '',
+            description: 'Subi Reef, South China Sea. China’s irregular naval forces harass local fishermen and use bases like this one to project force into contested areas of the South China Sea.',
             location: {
               center: [114.081227, 10.918537],
               zoom: 13.52,
@@ -123,24 +207,28 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
 
           ]
         },
         {
-            id: 'ETH',
+            id: 'IRUS',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'The US and Iran',
             image: '',
-            description: 'Lorem ipsum dolor amet.',
+            description: 'If talks fall apart and the nuclear deal collapses, there’s a real danger of the U.S. or Israel using military strikes to try and set back Iran’s fast growing nuclear capability, with all the dangers of escalation that would entail.',
             location: {
-              center: [36.450255, 10.096885],
-              zoom: 5,
-              pitch: 12.36,
-              bearing: 0
+              center: [56.142973, 29.489849],
+              zoom: 5.80,
+              pitch: 48.72,
+              bearing: 17.95
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -176,35 +264,12 @@ var config = {
           ]
         },
         {
-            id: 'IRUS',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'Lorem ipsum dolor amet.',
-            location: {
-              center: [56.142973, 29.489849],
-              zoom: 5.80,
-              pitch: 48.72,
-              bearing: 17.95
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-
-            ],
-            onChapterExit: [
-
-          ]
-        },
-        {
             id: 'ISPS',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'Israel and Palestine',
             image: '',
-            description: 'In the past year, the new government in Israel has further solidified its grip over the occupied Palestinian territories towards what now looks more and more like a de facto annexation. This permanent statu quo is however untenable and violent outbursts will inevitably occur. ',
+            description: 'In the past year, the new government in Israel has further solidified its grip over the occupied Palestinian territories towards what now looks more and more like a de facto annexation. This permanent statu quo is however untenable and violent outbursts will inevitably occur.',
             location: {
               center: [35.700359, 33.169155],
               zoom: 9,
@@ -222,12 +287,12 @@ var config = {
           ]
         },
         {
-            id: 'HT',
+            id: 'MALI',
             alignment: 'left',
             hidden: false,
-            title: 'Haiti',
+            title: 'Extremism in Africa',
             image: '',
-            description: 'Port-au-Prince. 2021 was one of the bleakest years for Haiti. The assassination of President Jovenel Moïse has left the country in disarray. Violent gangs now control most of the capital Port-au-Prince. In order to restore a functioning state, Haiti will need a consensus government and renewed support by its partners. ',
+            description: 'Insurgencies in the Sahel are expanding and the security situation in Mali, Burkina Faso and Niger continues to deteriorate. And France has made it clear it wants to end its military involvement.  This prospect however is pushing local governments to seek a dialogue with the jihadists that could lead to negotiated solutions. ',
             location: {
               center: [-72.310913, 18.545446],
               zoom: 13.14,
@@ -245,12 +310,12 @@ var config = {
           ]
         },
         {
-            id: 'MALI',
+            id: 'HT',
             alignment: 'left',
             hidden: false,
             title: 'Haiti',
             image: '',
-            description: 'Insurgencies in the Sahel are expanding and the security situation in Mali, Burkina and Niger continues to deteriorate. And France has made it clear it wants to end its military involvement.  This prospect however is pushing local governments to seek a dialogue with the jihadists that could lead to negotiated solutions.',
+            description: 'Port-au-Prince. 2021 was one of the bleakest years for Haiti. The assassination of President Jovenel Moïse has left the country in disarray. Violent gangs now control most of the capital Port-au-Prince. In order to restore a functioning state, Haiti will need a consensus government and renewed support by its partners.',
             location: {
               center: [-72.310913, 18.545446],
               zoom: 13.14,
@@ -271,20 +336,24 @@ var config = {
             id: 'COVID',
             alignment: 'left',
             hidden: false,
-            title: 'Haiti',
+            title: 'An ongoing pandemic',
             image: '',
-            description: 'Finally, the pandemic’s long tail is not over. From Colombia to Tunisia, from Lebanon to Sudan; COVID-19 has exacerbated grievances and led to unrest. Middle-income countries have been hit particularly hard by the economic downturn and the recovery looks increasingly divided between countries with high vaccination rates and parts of the world where vaccines and treatments are scarce. ',
+            description: 'Finally, the pandemic’s long tail is not over. From Colombia to Tunisia, from Lebanon to Sudan; COVID-19 has exacerbated grievances and led to unrest. Middle-income countries have been hit particularly hard by the economic downturn and the recovery looks increasingly divided between countries with high vaccination rates and parts of the world where vaccines and treatments are scarce.',
             location: {
-              center: [-72.310913, 18.545446],
-              zoom: 13.14,
-              pitch: 72.50,
-              bearing: 119.20
+              center: [12.234568, 23.422547],
+              zoom: 2,
+              pitch: 0,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 0
+              }
             ],
             onChapterExit: [
 
