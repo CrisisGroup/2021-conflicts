@@ -218,10 +218,12 @@ var map = new mapboxgl.Map({
 		transformRequest: transformRequest
 });
 
+var insetConfig = [37.811, 48.125];
+
 var mapInset = new mapboxgl.Map({
     container: 'mapInset',
     style: 'mapbox://styles/daltonwb/ckxcpfigx45vi14mfdk2qjhve',
-    center: config.chapters[0].location.center,
+    center: insetConfig,
     interactive: false,
     zoom: config.chapters[0].location.zoom,
     attributionControl: false
@@ -269,11 +271,18 @@ map.on("load", function() {
 				var chapter = config.chapters.find(chap => chap.id === response.element.id);
 				var chapterid = chapter.id;
 
-				if (chapterid == "UKR") {
-					$("#mapInset").css({opacity: 1});
+				if (chapterid == "INTRO") {
+					$("#mapInset").css({opacity: 0});
 				}
 				 else
-				 	$("#mapInset").css({opacity: 0});
+				 	$("#mapInset").css({opacity: 1});
+
+						if (chapterid == "ETH") {
+							mapInset.fitBounds([
+								[32.958984, -5.353521], // southwestern corner of the bounds
+								[43.50585, 5.615985] // northeastern corner of the bounds
+							]);
+							}
 
 				if ((chapterid == "00") || (chapterid == "00A")) {
 				     $("#Chapter00legend").show("slow");
