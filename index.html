@@ -61,16 +61,10 @@
 	<div id="map"></div>
 
 	<div id='Chapter00legend' class='legend'>
-	<h4>Climate fragility</h4>
+	<h4>Under siege</h4>
 	<ul class='legend-ul'>
-	<li><div><span style='background-color: #fdfc9a'></span>Low (0 – 1) </div></li>
-	<li><div><span style='background-color: #fde500'></span>Low - Medium (1 – 2) </div></li>
-	<li><div><span style='background-color: #fc9a00'></span>Medium - High (2 – 3) </div></li>
-	<li><div><span style='background-color: #fc0b00'></span>High (3 – 4) </div></li>
-	<li><div><span style='background-color: #9a0000'></span>Extremely High (4 – 5) </span></div></li>
-	<li><div><span style='background-color: #8f8f8f'></span>No Data</div></li>
+	<li><div>Here you can see dug-in trenches around a vehicle hangar by forces in Donetsk.</div></li>
 	</ul>
-	<h5><strong>Data</strong>: <a href='https://www.wri.org/data/aqueduct-global-maps-30-data' target='_blank'>WRI</a></h5>
 	</div>
 
 	<div id="story"></div>
@@ -271,6 +265,7 @@ map.on("load", function() {
 				var chapter = config.chapters.find(chap => chap.id === response.element.id);
 				var chapterid = chapter.id;
 
+
 				if (chapterid == "INTRO") {
 					$("#mapInset").css({opacity: 0});
 				}
@@ -282,7 +277,12 @@ map.on("load", function() {
 							[35.215919,47.116768],
 							[40.417945,48.907962]
 						]);
-						}
+					}
+
+					if (chapterid == "UKR" ) {
+							$("#Chapter00legend").show();
+				 } else
+							$("#Chapter00legend").hide("fast");
 
 						if (chapterid == "ETH") {
 							mapInset.fitBounds([
@@ -297,11 +297,6 @@ map.on("load", function() {
 									[79.579661,38.809224] // northeastern corner of the bounds
 								]);
 								}
-
-				if ((chapterid == "00") || (chapterid == "00A")) {
-				     $("#Chapter00legend").show("slow");
-				} else
-						 $("#Chapter00legend").hide("fast");
 
 
 				response.element.classList.add('active');

@@ -62,7 +62,7 @@ var config = {
             hidden: false,
             title: '1. Ukraine',
             image: '',
-            description: 'Dismissing the threat of a Russian invasion of Ukraine as a bluff would be a mistake. An open conflict could have terrifying repercussions, potentially sucking in NATO members.<br /><br />Western powers need to clarify what they would do to support Ukraine, spell that out to Moscow and stick to their red lines.<br /><br />Here you can see dug-in trenches around an airplane hangar by forces in Donetsk.',
+            description: 'Dismissing the threat of a Russian invasion of Ukraine as a bluff would be a mistake. An open conflict could have terrifying repercussions, potentially sucking in NATO members.<br /><br />Western powers need to clarify what they would do to support Ukraine, spell that out to Moscow and stick to their red lines.',
             location: {
               center: [37.811, 48.125],
               zoom: 15.5,
@@ -259,7 +259,7 @@ var config = {
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
-            description: 'If talks fall apart and the nuclear deal collapses, there’s a real danger of the U.S. or Israel using military strikes to try and set back Iran’s fast growing nuclear capability, with all the dangers of escalation that would entail.',
+            description: 'If talks fall apart and the nuclear deal collapses, there’s a real danger of the U.S. or Israel using military strikes to try and set back Iran’s fast growing nuclear capability, with all the dangers of escalation that would entail.<iframe src="https://flo.uri.sh/visualisation/8198127/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe>',
             location: {
               center: [51.7236149, 33.7254932],
               zoom: 15.5,
