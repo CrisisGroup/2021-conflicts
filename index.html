@@ -277,12 +277,26 @@ map.on("load", function() {
 				 else
 				 	$("#mapInset").css({opacity: 1});
 
+					if (chapterid == "UKR") {
+						mapInset.fitBounds([
+							[35.215919,47.116768],
+							[40.417945,48.907962]
+						]);
+						}
+
 						if (chapterid == "ETH") {
 							mapInset.fitBounds([
-								[32.958984, -5.353521], // southwestern corner of the bounds
-								[43.50585, 5.615985] // northeastern corner of the bounds
+								[18.750885,-1.556024], // southwestern corner of the bounds
+								[60.367096,19.480574] // northeastern corner of the bounds
 							]);
 							}
+
+							if (chapterid == "AFG") {
+								mapInset.fitBounds([
+									[58.771555,29.987659], // southwestern corner of the bounds
+									[79.579661,38.809224] // northeastern corner of the bounds
+								]);
+								}
 
 				if ((chapterid == "00") || (chapterid == "00A")) {
 				     $("#Chapter00legend").show("slow");

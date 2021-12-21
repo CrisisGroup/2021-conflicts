@@ -77,11 +77,32 @@ var config = {
                 layer: 'satellite',
                 duration: 4000,
                 opacity: 1
+              },
+              {
+                layer: 'ukr-labels',
+                duration: 4000,
+                opacity: 1
+              },
+              {
+                layer: 'ukr-dots',
+                duration: 4000,
+                opacity: 1
               }
+
             ],
             onChapterExit: [
               {
                 layer: 'satellite',
+                duration: 4000,
+                opacity: 0
+              },
+              {
+                layer: 'ukr-labels',
+                duration: 4000,
+                opacity: 0
+              },
+              {
+                layer: 'ukr-dots',
                 duration: 4000,
                 opacity: 0
               }
@@ -180,6 +201,11 @@ var config = {
                 layer: 'first-island-chain',
                 duration: 2000,
                 opacity: 1
+              },
+              {
+                layer: 'fic-label',
+                duration: 2000,
+                opacity: 1
               }
             ],
             onChapterExit: [
@@ -234,7 +260,11 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
 
