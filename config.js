@@ -311,19 +311,47 @@ var config = {
             image: '',
             description: 'Hopes of a two-state solution are dying fast. The question this year is whether the world’s policy catches up. Diplomats’ lip-service to a two-state solution that is all but out of reach gives cover for Israel to advance toward de-facto annexation of the West Bank.<br /><br />Better now would be steps to end Israeli impunity for violations of Palestinian rights. It’s time, in other words, to address the situation on the ground as it is.',
             location: {
-              center: [35.700359, 33.169155],
-              zoom: 9,
-              pitch: 0,
-              bearing: 0
+              center: [35.2348697,31.7764026],
+              zoom: 15,
+              pitch: 45,
+              bearing: 45
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'niger',
+                duration: 4000,
+                opacity: 1
+              },
+              {
+                layer: 'burkina',
+                duration: 4000,
+                opacity: 1
+              },
+              {
+                layer: 'mali',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'niger',
+                duration: 4000,
+                opacity: 0
+              },
+              {
+                layer: 'burkina',
+                duration: 4000,
+                opacity: 0
+              },
+              {
+                layer: 'mali',
+                duration: 4000,
+                opacity: 0
+              }
           ]
         },
         {
