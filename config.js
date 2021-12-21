@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><img src="images/10ctw_logo.png" height="292" width="460" /><h1> </h1>',
+    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><img src="images/10ctw_logo.png" height="233" width="368" /><h1> </h1>',
     subtitle: '',
     byline: '',
     footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
@@ -70,22 +70,22 @@ var config = {
               bearing: -164.60
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
                 layer: 'satellite',
-                duration: 4000,
+                duration: 2000,
                 opacity: 1
               },
               {
                 layer: 'ukr-labels',
-                duration: 4000,
+                duration: 8000,
                 opacity: 1
               },
               {
                 layer: 'ukr-dots',
-                duration: 4000,
+                duration: 8000,
                 opacity: 1
               }
 
@@ -93,17 +93,17 @@ var config = {
             onChapterExit: [
               {
                 layer: 'satellite',
-                duration: 4000,
+                duration: 3000,
                 opacity: 0
               },
               {
                 layer: 'ukr-labels',
-                duration: 4000,
+                duration: 1000,
                 opacity: 0
               },
               {
                 layer: 'ukr-dots',
-                duration: 4000,
+                duration: 1000,
                 opacity: 0
               }
           ]
