@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckx5j4u6i1c0x15p433alam68',
+    style: 'mapbox://styles/daltonwb/ckxgi9s8j0ur215nwgc5n6j98',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><img src="images/10ctw_logo.png" height="233" width="368" /><h1> </h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Richard Atwood<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support</strong>: Karim Lebhour<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
     chapters: [
       {
           id: 'INTRO',
@@ -65,7 +65,7 @@ var config = {
             description: 'Dismissing the threat of a Russian invasion of Ukraine as a bluff would be a mistake. An open conflict could have terrifying repercussions, potentially sucking in NATO members.<br /><br />Western powers need to clarify what they would do to support Ukraine, spell that out to Moscow and stick to their red lines.<br /><br />Here you can see dug-in trenches around an airplane hangar by forces in Donetsk.',
             location: {
               center: [37.811, 48.125],
-              zoom: 16,
+              zoom: 15.5,
               pitch: 50.85,
               bearing: -164.60
             },
@@ -134,6 +134,11 @@ var config = {
                 layer: 'tigray',
                 duration: 2000,
                 opacity: 1
+              },
+              {
+                layer: 'eth-label',
+                duration: 2000,
+                opacity: 1
               }
             ],
             onChapterExit: [
@@ -144,6 +149,11 @@ var config = {
               },
               {
                 layer: 'tigray',
+                duration: 2000,
+                opacity: 0
+              },
+              {
+                layer: 'eth-label',
                 duration: 2000,
                 opacity: 0
               }
