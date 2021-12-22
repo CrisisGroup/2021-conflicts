@@ -16,7 +16,7 @@ var config = {
           hidden: false,
           title: '',
           image: '',
-          description: 'Brutal wars in Ethiopia and Yemen. Humanitarian catastrophe in Afghanistan. Global powers standing off over Ukraine, Taiwan and Iran’s nuclear program. Laments in Western capitals about a lack of U.S. leadership. Plus COVID-19 and the climate emergency’s looming menace.<br /><br />Several flashpoints across the world look increasingly perilous, with hostile powers potentially facing off and risking that a miscalculation could spin into disaster.<br /><br />Here are International Crisis Group’s 10 Conflicts to Watch in 2022.',
+          description: 'Brutal wars in Ethiopia and Yemen. Humanitarian disaster in Afghanistan and Myanmar. Global powers in standoffs over Ukraine, Taiwan and Iran’s nuclear program. Laments in Western capitals about a lack of U.S. leadership. Plus COVID-19 and the climate emergency’s looming menace.<br /><br />Several flashpoints across the world look increasingly perilous, with hostile powers at odds, creating risks of miscalculations that could spin into disaster.<br /><br />Here are International Crisis Group’s 10 Conflicts to Watch in 2022.',
           location: {
             center: [12.234568, 23.422547],
             zoom: 2,
@@ -165,7 +165,7 @@ var config = {
             hidden: false,
             title: '3. Afghanistan',
             image: '',
-            description: 'Humanitarian catastrophe is looming in Afghanistan, triggered mostly by Western governments cutting off aid after the Taliban’s takeover. The UN says 23 million people, more than half the population, will suffer from hunger by spring.<br /><br />International donors should ease sanctions to allow in more aid and permit regular economic activity.',
+            description: 'A humanitarian catastrophe is looming in Afghanistan, triggered mostly by Western governments cutting off aid after the Taliban’s takeover. The UN says 23 million people, more than half the population, will suffer from hunger by spring.<br /><br />International donors should release money earmarked for Afghanistan, ease sanctions to allow in more aid and permit regular economic activity. Averting disaster likely requires working through Taliban ministries.',
             location: {
               center: [69.191105, 34.534492],
               zoom: 11.93,
@@ -196,7 +196,7 @@ var config = {
             hidden: false,
             title: '4. U.S.-China',
             image: '',
-            description: 'A direct confrontation between the U.S. and China over Taiwan is likely to happen in the near future, heightened tensions between Washington and Beijing provide plenty of opportunities for miscalculation and unintended escalation, particularly around the Taiwan strait and the South China Sea. Mounting tension between the US and China could see a show of force over Taiwan and the South China sea. For now, the potential for a direct military confrontation remains low as China is focused on the Winter Olympics and the 20th Party Congress, but the possibility of miscalculation or misinterpretation remains a concern.',
+            description: 'A direct U.S.-China clash over Taiwan is unlikely in the year ahead. But Chinese and U.S. planes and warships increasingly have close "encounters" around the island or near disputed rocks and reefs in the South China Sea.<br /><br />To avoid accidental clashes, both sides should align their policies with the UN Law of the Sea and work on other confidence-building measures.',
             location: {
               center: [120.199462, 18.345498],
               zoom: 4.25,
@@ -255,11 +255,11 @@ var config = {
         },
         {
             id: 'IRUS',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
-            description: 'If talks fall apart and the nuclear deal collapses, there’s a real danger of the U.S. or Israel using military strikes to try and set back Iran’s fast growing nuclear capability, with all the dangers of escalation that would entail.<iframe src="https://flo.uri.sh/visualisation/8198127/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe>',
+            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<iframe src="https://flo.uri.sh/visualisation/8198127/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe>',
             location: {
               center: [51.7236149, 33.7254932],
               zoom: 15.5,
@@ -286,7 +286,7 @@ var config = {
             hidden: false,
             title: '6. Yemen',
             image: '',
-            description: 'Yemen’s devastating war is poised to get worse. Huthi rebels have encircled and advanced into the oil- and gas-rich governorate of Marib.<br /><br />To reach a genuine peace settlement, the new UN envoy needs a fresh approach that goes beyond two-party talks between the Huthis, on one hand, and on the other side, the Hadi government and its Saudi backers.',
+            description: 'Yemen’s devastating war could be poised to get worse. Huthi rebels have encircled and advanced into the oil- and gas-rich governorate of Marib.<br /><br />The new UN envoy should redouble efforts to avert an offensive on Marib, while pushing for an approach to peacemaking that goes beyond two-party talks between the Huthis, on one side, and the Hadi government and its Saudi backers on the other.',
             location: {
               center: [45.318441, 15.469514],
               zoom: 13.53,
@@ -309,7 +309,7 @@ var config = {
             hidden: false,
             title: '7. Israel-Palestine',
             image: '',
-            description: 'Hopes of a two-state solution are dying fast. The question this year is whether the world’s policy catches up. Diplomats’ lip-service to a two-state solution that is all but out of reach gives cover for Israel to advance toward de-facto annexation of the West Bank.<br /><br />Better now would be steps to end Israeli impunity for violations of Palestinian rights. It’s time, in other words, to address the situation on the ground as it is.',
+            description: 'Hopes of a two-state solution are dying fast. The question this year is whether the world’s policy catches up. Diplomats’ lip service to a two-state solution that is all but out of reach gives cover for Israel to advance toward de facto annexation of the West Bank.',
             location: {
               center: [35.2348697,31.7764026],
               zoom: 15,
@@ -320,47 +320,19 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-              {
-                layer: 'niger',
-                duration: 4000,
-                opacity: 1
-              },
-              {
-                layer: 'burkina',
-                duration: 4000,
-                opacity: 1
-              },
-              {
-                layer: 'mali',
-                duration: 4000,
-                opacity: 1
-              }
+
             ],
             onChapterExit: [
-              {
-                layer: 'niger',
-                duration: 4000,
-                opacity: 0
-              },
-              {
-                layer: 'burkina',
-                duration: 4000,
-                opacity: 0
-              },
-              {
-                layer: 'mali',
-                duration: 4000,
-                opacity: 0
-              }
+
           ]
         },
         {
             id: 'MALI',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: '8. Islamist militancy in Africa',
             image: '',
-            description: 'Since ISIS lost its so-called caliphate in the Levant in 2017, Africa has suffered some of the world’s most ferocious battles between states and jihadists. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue, and should include the possibility of controversial talks with some militant leaders.',
+            description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.',
             location: {
               center: [5.987803, 18.463740],
               zoom: 4,
@@ -371,42 +343,47 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'niger',
+                duration: 4000,
+                opacity: 1
+              },
+              {
+                layer: 'burkina',
+                duration: 4000,
+                opacity: 1
+              },
+              {
+                layer: 'mali',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'niger',
+                duration: 4000,
+                opacity: 0
+              },
+              {
+                layer: 'burkina',
+                duration: 4000,
+                opacity: 0
+              },
+              {
+                layer: 'mali',
+                duration: 4000,
+                opacity: 0
+              }
           ]
         },
         {
-            id: 'HT',
+            id: 'MYM',
             alignment: 'left',
             hidden: false,
-            title: '9. Haiti',
+            title: '9. Myanmar',
             image: '',
-            description: '2021 stands out as particularly bleak for many Haitians. Few expect a brighter 2022. Violent gangs now lord over much of capital Port-au-Prince. The first priority is for Haitian political factions to reach consensus on a new administration and transition plan. Without those, Haitians’ despair about their futures will deepen. More will depart in search of better lives elsewhere.',
-            location: {
-              center: [-72.310913, 18.545446],
-              zoom: 13.14,
-              pitch: 72.50,
-              bearing: 119.20
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-
-            ],
-            onChapterExit: [
-
-          ]
-        },
-        {
-            id: 'COVID',
-            alignment: 'left',
-            hidden: false,
-            title: '10. (maybe?) Myanmar',
-            image: '',
-            description: 'Finally, the pandemic’s long tail is not over. From Colombia to Tunisia, from Lebanon to Sudan; COVID-19 has exacerbated grievances and led to unrest. Middle-income countries have been hit particularly hard by the economic downturn and the recovery looks increasingly divided between countries with high vaccination rates and parts of the world where vaccines and treatments are scarce.',
+            description: 'Lorem ipsum dolor amet.',
             location: {
               center: [96.934269, 22.566811],
               zoom: 4.5,
@@ -420,8 +397,31 @@ var config = {
               {
                 layer: 'satellite',
                 duration: 4000,
-                opacity: 0
+                opacity: 1
               }
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: 'HT',
+            alignment: 'left',
+            hidden: false,
+            title: '10. Haiti',
+            image: '',
+            description: '2021 stands out as particularly bleak for many Haitians. Few expect a brighter 2022. Violent gangs now lord over much of the capital Port-au-Prince.<br /><br />The first priority is for Haitian political factions to reach consensus on a new administration and transition plan. Without those, Haitians’ despair about the future will deepen. More will depart in search of better lives elsewhere.',
+            location: {
+              center: [-72.310913, 18.545446],
+              zoom: 13.14,
+              pitch: 72.50,
+              bearing: 119.20
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+
             ],
             onChapterExit: [
 
