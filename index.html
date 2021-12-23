@@ -61,12 +61,12 @@
 <div id="mapInset"></div>
 	<div id="map"></div>
 
-	<div id='Chapter00legend' class='legend'>
+	<!-- <div id='Chapter00legend' class='legend'>
 	<h4>Under siege</h4>
 	<ul class='legend-ul'>
 	<li><div>Here you can see dug-in trenches around a vehicle hangar by forces in Donetsk.</div></li>
 	</ul>
-	</div>
+	</div> -->
 
 	<div id="story"></div>
 
@@ -267,7 +267,7 @@ map.on("load", function() {
 				var chapterid = chapter.id;
 
 
-				if (chapterid == "INTRO") {
+				if ((chapterid == "INTRO") || (chapterid == "CNUS1")) {
 					$("#mapInset").css({opacity: 0});
 				}
 				 else
@@ -280,25 +280,68 @@ map.on("load", function() {
 						]);
 					}
 
-					if (chapterid == "UKR" ) {
-							$("#Chapter00legend").show();
-				 } else
-							$("#Chapter00legend").hide("fast");
-
 						if (chapterid == "ETH") {
 							mapInset.fitBounds([
-								[28.358559,3.691468], // southwestern corner of the bounds
-								[49.166664,14.256273] // northeastern corner of the bounds
+								[34.349737,6.355852],
+								[43.193731,11.649159]
 							]);
 							}
 
 							if (chapterid == "AFG") {
 								mapInset.fitBounds([
-									[58.771555,29.987659], // southwestern corner of the bounds
-									[79.579661,38.809224] // northeastern corner of the bounds
+									[64.748802,32.288266],
+									[73.592796,36.704735]
 								]);
 								}
 
+								if (chapterid == "CNUS2") {
+									mapInset.fitBounds([
+										[105.991928,8.334124],
+										[123.679916,18.742817]
+									]);
+									}
+
+									if (chapterid == "IRUS") {
+										mapInset.fitBounds([
+											[50.730281,32.951784],
+											[53.099208,34.069298]
+										]);
+										}
+
+										if (chapterid == "YEM") {
+											mapInset.fitBounds([
+												[37.821145,10.683393],
+												[56.772561,20.983089]
+											]);
+											}
+
+											if (chapterid == "ISPS") {
+												mapInset.fitBounds([
+													[34.040434,31.205294],
+													[36.409361,32.344707]
+												]);
+												}
+
+												if (chapterid == "MALI") {
+													mapInset.fitBounds([
+														[-17.506647,4.588848],
+														[20.396185,25.186395]
+													]);
+													}
+
+													if (chapterid == "MYM") {
+														mapInset.fitBounds([
+															[86.957999,16.028859],
+															[105.909415,26.021190]
+														]);
+														}
+
+														if (chapterid == "HT") {
+															mapInset.fitBounds([
+																[-77.084239,16.001197],
+																[-67.608531,21.082191]
+															]);
+															}
 
 				response.element.classList.add('active');
 				map[chapter.mapAnimation || 'flyTo'](chapter.location);

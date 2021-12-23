@@ -216,11 +216,21 @@ var config = {
                 layer: 'fic-label',
                 duration: 2000,
                 opacity: 1
+              },
+              {
+                layer: 'pac-countries',
+                duration: 2000,
+                opacity: 1
               }
             ],
             onChapterExit: [
               {
                 layer: 'first-island-chain',
+                duration: 2000,
+                opacity: 0
+              },
+              {
+                layer: 'pac-countries',
                 duration: 2000,
                 opacity: 0
               }
@@ -323,7 +333,11 @@ var config = {
 
             ],
             onChapterExit: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 0
+              }
           ]
         },
         {
@@ -357,6 +371,11 @@ var config = {
                 layer: 'mali',
                 duration: 4000,
                 opacity: 1
+              },
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 0
               }
             ],
             onChapterExit: [
@@ -421,7 +440,11 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
 
