@@ -385,13 +385,13 @@ var config = {
         },
         {
             id: 'MALI',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: '8. Islamist militancy in Africa',
             image: '',
             description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.<div class="flourish-embed flourish-chart" data-src="visualisation/8212983"></div>',
             location: {
-              center: [33.061936, -4.666987],
+              center: [0.801167, -8.678834],
               zoom: 3.2,
               pitch: 40,
               bearing: 0
