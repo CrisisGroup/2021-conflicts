@@ -269,7 +269,7 @@ var config = {
         },
         {
             id: 'IRUS',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
