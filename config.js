@@ -67,7 +67,8 @@ var config = {
               center: [37.811, 48.125],
               zoom: 15.5,
               pitch: 50.85,
-              bearing: -164.60
+              bearing: -164.60,
+              speed: 0.7
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -76,17 +77,20 @@ var config = {
               {
                 layer: 'satellite',
                 duration: 2000,
-                opacity: 1
+                opacity: 1,
+                speed: 0.7
               },
               {
                 layer: 'ukr-labels',
                 duration: 8000,
-                opacity: 1
+                opacity: 1,
+                speed: 0.7
               },
               {
                 layer: 'ukr-dots',
                 duration: 8000,
-                opacity: 1
+                opacity: 1,
+                speed: 0.7
               }
 
             ],
