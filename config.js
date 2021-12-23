@@ -259,7 +259,7 @@ var config = {
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
-            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<iframe src="https://flo.uri.sh/visualisation/8198127/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe>',
+            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<div class="flourish-embed flourish-chart" data-src="visualisation/8198127"></div>',
             location: {
               center: [51.7236149, 33.7254932],
               zoom: 15.5,
@@ -332,7 +332,7 @@ var config = {
             hidden: false,
             title: '8. Islamist militancy in Africa',
             image: '',
-            description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.',
+            description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.<div class="flourish-embed flourish-chart" data-src="visualisation/8212983"></div>',
             location: {
               center: [5.987803, 18.463740],
               zoom: 4,
@@ -340,7 +340,7 @@ var config = {
               bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
