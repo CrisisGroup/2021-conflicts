@@ -33,7 +33,7 @@ a, a:hover, a:visited {
 }
 #header h1, #header h2, #header p {
     margin: 0;
-    padding: 2vh 2vw;
+    padding: 2vh 5vw;
     text-align: left;
     font-family: 'Libre Franklin', sans-serif;
 }

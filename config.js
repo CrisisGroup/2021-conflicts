@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckxgi9s8j0ur215nwgc5n6j98',
+    style: 'mapbox://styles/daltonwb/ckxjavthg1mw514nomso4vc6a',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -81,6 +81,12 @@ var config = {
                 speed: 0.7
               },
               {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 1,
+                speed: 0.7
+              },
+              {
                 layer: 'ukr-labels',
                 duration: 8000,
                 opacity: 1,
@@ -92,7 +98,6 @@ var config = {
                 opacity: 1,
                 speed: 0.7
               }
-
             ],
             onChapterExit: [
               {
@@ -109,6 +114,12 @@ var config = {
                 layer: 'ukr-dots',
                 duration: 1000,
                 opacity: 0
+              },
+              {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 0,
+                speed: 0.7
               }
           ]
         },
@@ -184,6 +195,11 @@ var config = {
                 layer: 'satellite',
                 duration: 4000,
                 opacity: 1
+              },
+              {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 1,
               }
             ],
             onChapterExit: [
@@ -191,6 +207,11 @@ var config = {
                 layer: 'satellite',
                 duration: 4000,
                 opacity: 0
+              },
+              {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 0,
               }
           ]
         },
@@ -200,7 +221,7 @@ var config = {
             hidden: false,
             title: '4. U.S.-China',
             image: '',
-            description: 'A direct U.S.-China clash over Taiwan is unlikely in the year ahead. But Chinese and U.S. planes and warships increasingly have close "encounters" around the island or near disputed rocks and reefs in the South China Sea.<br /><br />To avoid accidental clashes, both sides should align their policies with the UN Law of the Sea and work on other confidence-building measures.',
+            description: 'A direct U.S.-China clash over Taiwan is unlikely in the year ahead. But Chinese and U.S. planes and warships increasingly have close "encounters" around the island or near disputed rocks and reefs in the South China Sea. <br /><br />Against the backdrop of heightened competition, accidental clashes could lead to major crises. ',
             location: {
               center: [120.199462, 18.345498],
               zoom: 4.25,
@@ -246,7 +267,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Subi Reef, South China Sea. China’s irregular naval forces harass local fishermen and use bases like this one to project force into contested areas of the South China Sea.',
+            description: 'Against the backdrop of heightened competition, accidental clashes could lead to major crises.',
             location: {
               center: [114.081227, 10.918537],
               zoom: 13.52,
@@ -261,6 +282,11 @@ var config = {
                 layer: 'satellite',
                 duration: 4000,
                 opacity: 1
+              },
+              {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 1,
               }
             ],
             onChapterExit: [
@@ -269,11 +295,11 @@ var config = {
         },
         {
             id: 'IRUS',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
-            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<div class="flourish-embed flourish-chart" data-src="visualisation/8213840"></div>',
+            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<video width="100%" height="640"  autoplay loop muted>><source src="images/iran_stockpile.mp4" type="video/mp4"></video>',
             location: {
               center: [51.7236149, 33.7254932],
               zoom: 15.5,
@@ -311,7 +337,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
 
@@ -325,7 +355,7 @@ var config = {
             image: '',
             description: 'Hopes of a two-state solution are dying fast. The question this year is whether the world’s policy catches up. Diplomats’ lip service to a two-state solution that is all but out of reach gives cover for Israel to advance toward de facto annexation of the West Bank.',
             location: {
-              center: [35.2348697,31.7764026],
+              center: [35.2964851,31.7770816],
               zoom: 15,
               pitch: 45,
               bearing: 45
@@ -334,27 +364,36 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'satellite',
+                duration: 4000,
+                opacity: 1
+              }
             ],
             onChapterExit: [
               {
                 layer: 'satellite',
                 duration: 4000,
                 opacity: 0
+              },
+              {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 0
               }
           ]
         },
         {
             id: 'MALI',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
             title: '8. Islamist militancy in Africa',
             image: '',
             description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.<div class="flourish-embed flourish-chart" data-src="visualisation/8212983"></div>',
             location: {
-              center: [5.987803, 18.463740],
-              zoom: 4,
-              pitch: 30,
+              center: [33.061936, -4.666987],
+              zoom: 3.2,
+              pitch: 40,
               bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -362,39 +401,14 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                layer: 'niger',
+                layer: 'central-sahel',
                 duration: 4000,
-                opacity: 1
-              },
-              {
-                layer: 'burkina',
-                duration: 4000,
-                opacity: 1
-              },
-              {
-                layer: 'mali',
-                duration: 4000,
-                opacity: 1
-              },
-              {
-                layer: 'satellite',
-                duration: 4000,
-                opacity: 0
+                opacity: .6
               }
             ],
             onChapterExit: [
               {
-                layer: 'niger',
-                duration: 4000,
-                opacity: 0
-              },
-              {
-                layer: 'burkina',
-                duration: 4000,
-                opacity: 0
-              },
-              {
-                layer: 'mali',
+                layer: 'central-sahel',
                 duration: 4000,
                 opacity: 0
               }
@@ -406,7 +420,7 @@ var config = {
             hidden: false,
             title: '9. Myanmar',
             image: '',
-            description: 'Lorem ipsum dolor amet.',
+            description: 'The February military coup  put an abrupt halt to a decade of reform in Myanmar. A brutal crackdown on mostly peaceful protests has triggered broad-based resistance, ranging from civil disobedience to armed attacks on security forces.<br /><br />The human cost of the standoff is devastating. Myanmar’s economy is in freefall, and health and education systems have collapsed. The world’s attention is waning despite the risk of a failed state at the heart of the Indo-Pacific.',
             location: {
               center: [96.934269, 22.566811],
               zoom: 4.5,
@@ -414,13 +428,18 @@ var config = {
               bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
+                layer: 'myanmar',
+                duration: 4000,
+                opacity: .6
+              },
+              {
                 layer: 'satellite',
                 duration: 4000,
-                opacity: 1
+                opacity: 0
               }
             ],
             onChapterExit: [
@@ -438,7 +457,8 @@ var config = {
               center: [-72.310913, 18.545446],
               zoom: 13.14,
               pitch: 72.50,
-              bearing: 119.20
+              bearing: 119.20,
+              speed: 0.7
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -447,7 +467,13 @@ var config = {
               {
                 layer: 'satellite',
                 duration: 4000,
-                opacity: 1
+                opacity: 1,
+                speed: 0.7
+              },
+              {
+                layer: 'locators',
+                duration: 2000,
+                opacity: 1,
               }
             ],
             onChapterExit: [
