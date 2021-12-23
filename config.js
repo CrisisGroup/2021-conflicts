@@ -273,7 +273,7 @@ var config = {
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
-            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<div class="flourish-embed flourish-chart" data-src="visualisation/8198127"></div>',
+            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, likely prompting Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br />All sides should dial tensions down by compromising on sanctions, deepening regional dialogue and building toward a new nuclear deal that is better for all.<div class="flourish-embed flourish-chart" data-src="visualisation/8213840"></div>',
             location: {
               center: [51.7236149, 33.7254932],
               zoom: 15.5,
