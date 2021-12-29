@@ -62,7 +62,7 @@ var config = {
             hidden: false,
             title: '1. Ukraine',
             image: '',
-            description: 'Dismissing the threat of a Russian invasion of Ukraine as a bluff would be a mistake. An open conflict could have terrifying repercussions, potentially sucking in NATO members.<br /><br />Western powers need to clarify what they would do to support Ukraine, spell that out to Moscow and stick to their red lines.<br /><br />[Read more]',
+            description: 'Dismissing the threat of a Russian invasion of Ukraine as a bluff would be a mistake. An open conflict could have terrifying repercussions, potentially sucking in NATO members.<br /><br />Western powers need to clarify what they would do to support Ukraine, spell that out to Moscow and stick to their red lines.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [37.811, 48.125],
               zoom: 15.5,
@@ -129,7 +129,7 @@ var config = {
             hidden: false,
             title: '2. Ethiopia',
             image: '',
-            description: 'Fighting between Prime Minister Abiy’s federal army and forces from the northern Tigray region is tearing the country apart. All sides stand accused of atrocities. Neither is likely to deliver the other a mortal blow.<br /><br />Diplomats should push for a cessation of hostilities to get humanitarian aid into Tigray, where famine looms, and try to get the parties to peace talks.<br /><br />[Read more]',
+            description: 'Fighting between Prime Minister Abiy’s federal army and forces from the northern Tigray region is tearing the country apart. All sides stand accused of atrocities. Neither is likely to deliver the other a mortal blow.<br /><br />Diplomats should push for a cessation of hostilities to get humanitarian aid into Tigray, where famine looms, and try to get the parties to peace talks.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [36.450255, 10.096885],
               zoom: 5,
@@ -180,7 +180,7 @@ var config = {
             hidden: false,
             title: '3. Afghanistan',
             image: '',
-            description: 'A humanitarian catastrophe is looming in Afghanistan, triggered mostly by Western governments cutting off aid after the Taliban’s takeover. The UN says 23 million people, more than half the population, will suffer from hunger by spring.<br /><br />International donors should release money earmarked for Afghanistan, ease sanctions to allow in more aid and permit regular economic activity. Averting disaster likely requires working through Taliban ministries.<br /><br />[Read more]',
+            description: 'A humanitarian catastrophe is looming in Afghanistan, triggered mostly by Western governments cutting off aid after the Taliban’s takeover. The UN says 23 million people, more than half the population, will suffer from hunger by spring.<br /><br />International donors should release money earmarked for Afghanistan, ease sanctions to allow in more aid and permit regular economic activity. Averting disaster likely requires working through Taliban ministries.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [69.191105, 34.534492],
               zoom: 11.93,
@@ -221,7 +221,7 @@ var config = {
             hidden: false,
             title: '4. U.S.-China',
             image: '',
-            description: 'A direct U.S.-China clash over Taiwan is unlikely in the year ahead. But Chinese and U.S. planes and warships increasingly have close "encounters" around the island or near disputed rocks and reefs in the South China Sea.<br /><br />[Read more]',
+            description: 'A direct U.S.-China clash over Taiwan is unlikely in the year ahead. But Chinese and U.S. planes and warships increasingly have close "encounters" around the island or near disputed rocks and reefs in the South China Sea.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [120.199462, 18.345498],
               zoom: 4,
@@ -299,7 +299,7 @@ var config = {
             hidden: false,
             title: '5. Iran versus the U.S. and Israel',
             image: '',
-            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, which could prompt Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br /><video width="100%" height="640"  autoplay loop muted>><source src="images/iran_stockpile.mp4" type="video/mp4"></video><br /><br />[Read more]',
+            description: 'Hopes of reviving the Iranian nuclear deal are fading. If it collapses, the U.S. or Israel may attempt to knock out Iranian nuclear facilities, which could prompt Tehran to sprint toward obtaining a nuclear weapon and setting off a perilous retaliatory cycle across the Levant.<br /><br /><video width="100%" height="640"  autoplay loop muted>><source src="images/iran_stockpile.mp4" type="video/mp4"></video><br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [51.7236149, 33.7254932],
               zoom: 15.5,
@@ -326,7 +326,7 @@ var config = {
             hidden: false,
             title: '6. Yemen',
             image: '',
-            description: 'Yemen’s devastating war could be poised to get worse. Huthi rebels have encircled and advanced into the oil- and gas-rich governorate of Marib. A battle for Marib city would be deadly and would prolong rather than end the war.<br /><br />The new UN envoy should redouble efforts to avert an offensive on Marib, while pushing for an approach to peacemaking that goes beyond two-party talks between the Huthis, on one side, and the Hadi government and its Saudi backers on the other.<br /><br />[Read more]',
+            description: 'Yemen’s devastating war could be poised to get worse. Huthi rebels have encircled and advanced into the oil- and gas-rich governorate of Marib. A battle for Marib city would be deadly and would prolong rather than end the war.<br /><br />The new UN envoy should redouble efforts to avert an offensive on Marib, while pushing for an approach to peacemaking that goes beyond two-party talks between the Huthis, on one side, and the Hadi government and its Saudi backers on the other.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [45.318441, 15.469514],
               zoom: 13.53,
@@ -353,7 +353,7 @@ var config = {
             hidden: false,
             title: '7. Israel-Palestine',
             image: '',
-            description: 'This past year saw the most destructive Gaza-Israel war in just over a decade, as well as clashes in Jerusalem, the West Bank and Israeli cities. The escalation illustrated once again that the status quo is untenable. Israel’s new governments has continued repressing Palestinians and de-facto annexing the West Bank.<br /><br />The peace process is long dead and hope of a two-state solution dying fast. The question this year is whether the world’s policy catches up.<br /><br />[Read more]',
+            description: 'This past year saw the most destructive Gaza-Israel war in just over a decade, as well as clashes in Jerusalem, the West Bank and Israeli cities. The escalation illustrated once again that the status quo is untenable. Israel’s new governments has continued repressing Palestinians and de-facto annexing the West Bank.<br /><br />The peace process is long dead and hope of a two-state solution dying fast. The question this year is whether the world’s policy catches up.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [35.2964851,31.7770816],
               zoom: 15,
@@ -384,7 +384,7 @@ var config = {
             hidden: false,
             title: '8. Haiti',
             image: '',
-            description: '2021 stands out as particularly bleak for many Haitians. Few expect a brighter 2022. Violent gangs now lord over much of the capital Port-au-Prince.<br /><br />The first priority is for Haitian political factions to reach consensus on a new administration and transition plan. Without those, Haitians’ despair about the future will deepen. More will depart in search of better lives elsewhere.<br /><br />[Read more]',
+            description: '2021 stands out as particularly bleak for many Haitians. Few expect a brighter 2022. Violent gangs now lord over much of the capital Port-au-Prince.<br /><br />The first priority is for Haitian political factions to reach consensus on a new administration and transition plan. Without those, Haitians’ despair about the future will deepen. More will depart in search of better lives elsewhere.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [-72.310913, 18.545446],
               zoom: 13.14,
@@ -423,7 +423,7 @@ var config = {
             hidden: false,
             title: '9. Myanmar',
             image: '',
-            description: 'The February military coup  put an abrupt halt to a decade of reform in Myanmar. A brutal crackdown on mostly peaceful protests has triggered broad-based resistance, ranging from civil disobedience to armed attacks on security forces.<br /><br />The human cost of the standoff is devastating. Myanmar’s economy is in freefall, and health and education systems have collapsed. The world’s attention is waning despite the risk of a failed state at the heart of the Indo-Pacific.<br /><br />[Read more]',
+            description: 'The February military coup  put an abrupt halt to a decade of reform in Myanmar. A brutal crackdown on mostly peaceful protests has triggered broad-based resistance, ranging from civil disobedience to armed attacks on security forces.<br /><br />The human cost of the standoff is devastating. Myanmar’s economy is in freefall, and health and education systems have collapsed. The world’s attention is waning despite the risk of a failed state at the heart of the Indo-Pacific.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [96.934269, 22.566811],
               zoom: 4.5,
@@ -452,7 +452,7 @@ var config = {
             hidden: false,
             title: '10. Islamist militancy in Africa',
             image: '',
-            description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.<div class="flourish-embed flourish-chart" data-src="visualisation/8212983"></div><br /><br />[Read more]',
+            description: 'Africa today is suffering some of the world’s most ferocious battles between states and Islamist militants. Western-backed military operations help keep jihadists at bay. Yet they often alienate locals and there is little to show for years of foreign efforts to build up indigenous armies.<br /><br />A rethink is long overdue and should include the possibility of talks with some militant leaders.<div class="flourish-embed flourish-chart" data-src="visualisation/8212983"></div><br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [0.801167, -8.678834],
               zoom: 3.2,
