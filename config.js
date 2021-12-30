@@ -353,7 +353,7 @@ var config = {
             hidden: false,
             title: '7. Israel-Palestine',
             image: '',
-            description: 'This past year saw the most destructive Gaza-Israel war in just over a decade, as well as clashes in Jerusalem, the West Bank and Israeli cities. The escalation illustrated once again that the status quo is untenable. Israel’s new governments has continued repressing Palestinians and de-facto annexing the West Bank.<br /><br />The peace process is long dead and hope of a two-state solution dying fast. The question this year is whether the world’s policy catches up.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
+            description: 'This past year saw the most destructive Gaza-Israel war in just over a decade, as well as clashes in Jerusalem, the West Bank and Israeli cities. The escalation illustrated once again that the status quo is untenable. Israel’s new government has continued repressing Palestinians and de-facto annexing the West Bank.<br /><br />The peace process is long dead and hope of a two-state solution dying fast. The question this year is whether the world’s policy catches up.<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2022" target="_blank">[Read more]</a>',
             location: {
               center: [35.2964851,31.7770816],
               zoom: 15,
